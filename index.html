@@ -81,10 +81,10 @@
         <div class="col-lg-8 col-lg-offset-2 mt">
           <h1 class="animation slideDown">事前申込みのためのデモサイト</h1>
         </div>
-        <form class="col-lg-12">
+        <form class="col-lg-12"  role="form" action="http://sae.xpne.info/opAuthMailAddress/requestRegisterURL" method="POST">
           <div class="input-group input-group-lg col-sm-offset-4 col-sm-4">
-            <input type="text" class="center-block form-control input-lg" title="Enter you email." placeholder="メールアドレスを入力してね">
-            <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">送信</button></span>
+            <input type="text" name="request_register_url[mail_address]"  class="center-block form-control input-lg" title="Enter you email." placeholder="メールアドレスを入力してね">
+            <span class="input-group-btn"><button type="submit" class="btn btn-lg btn-primary" type="button">送信</button></span>
           </div>
         </form>
         
