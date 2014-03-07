@@ -61,6 +61,8 @@
     <!-- Main Jquery & Hover Effects. Should load first -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/hover_pack.js"></script>
+
+    <script src="assets/js/jquery.js"></script>
     
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -122,15 +124,11 @@
       <div class="container">
       <div class="row centered">
         <div class="col-lg-8 col-lg-offset-2 mt">
-          <h1 class="animation slideDown">事前申込みのためのデモサイト</h1>
+          <h1 class="animation slideDown">デモサイト</h1>
+          <h3 style="color:white;">みんなで集まれるSNSのためにあなたの協力が必要です。下のボタンをクリックし、SNSに出資しようという意思を教えてください。</h3>
+          <p style="color:white;">グーグルフォームで意思を伝えよう！</p>
+          <a href="https://docs.google.com/forms/d/12JkDUJCPfQNFEMu908U4FmphfQczE8XHmpHTevbXw5E/viewform"><p class="mt"><button type="button" class="btn btn-cta btn-lg">協力する</button></p></a>
         </div>
-        <form class="col-lg-12"  role="form" action="http://sae.xpne.info/opAuthMailAddress/requestRegisterURL" method="POST">
-          <input type="hidden" name="request_register_url[course_id]" value="1">
-          <div class="input-group input-group-lg col-sm-offset-4 col-sm-4">
-            <input type="text" name="request_register_url[mail_address]"  class="center-block form-control input-lg" title="Enter you email." placeholder="メールアドレスを入力してね">
-            <span class="input-group-btn"><button type="submit" class="btn btn-lg btn-primary" type="button">送信</button></span>
-          </div>
-        </form>
         
       </div><!-- /row -->
       </div><!-- /container -->
@@ -222,6 +220,32 @@
       
     </div><!-- /row -->
   </div><!-- /container -->
+
+  <! ========== TESTIMONIAL CAROUSEL ========================================================================================== 
+  =============================================================================================================================>    
+
+  <div id="grey">
+    <div class="container">
+      <div class="row mt">
+        <div class="col-lg-4 col-lg-offset-4 centered">
+          <h3>新規登録はこちら！</h3>
+          <hr>
+        </div>
+        <div class="col-lg-8 col-lg-offset-2 centered">
+          <p>SNSからメールがくるよ。メールに初期パスワードが書いてあるからSNSにアクセスしてみてね。</p>
+        </div><! --/col-lg-8 -->
+ 
+          <form class="col-lg-12"  role="form" action="http://sae.xpne.info/opAuthMailAddress/requestRegisterURL" method="POST">
+            <input type="hidden" name="request_register_url[course_id]" value="1">
+            <div class="input-group input-group-lg col-sm-offset-4 col-sm-4">
+              <input type="text" name="request_register_url[mail_address]"  class="center-block form-control input-lg" title="Enter you email." placeholder="メールアドレスを入力してね">
+              <span class="input-group-btn"><button type="submit" class="btn btn-lg btn-primary" type="button">送信</button></span>
+            </div>
+          </form>
+        
+      </div><!-- /row -->
+    </div><!-- /container -->
+  </div>
   
   <! ========== FOOTER ======================================================================================================== 
   =============================================================================================================================>    
